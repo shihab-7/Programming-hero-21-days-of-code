@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
+
+
+/* multiple jaygate same elements or design apply korte chaile eivabe akta root er vitor onek variable banay neowa jay then pore use kora jay var(-- root er vitor deowa nam) diye*/
+:root{
+    --primary-font : #feffff;
+    --background-color :#0C0418;
+    ;
+    --primary-color : #cf34f6;
+}
+
+/* globally kisu change korte chaile star(*) diye bracket er vitor design apply korte hoy */
+
+/* by default margin padding remove kore neowa hoise */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Antonio", sans-serif;
+    font-weight:400;
+    color: var(--primary-font);
+}

@@ -1,0 +1,12 @@
+
+html = hyper text markup language 
+CSS = cascading style sheet
+
+akta portfolio er structure :
+
+navbar
+    |
+banner contains title and descriptions
+
+ei duita milei header
+

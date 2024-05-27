@@ -1,0 +1,22 @@
+
+.nav{
+     
+    padding: 20px; 
+    display: flex; 
+    gap:20px; 
+    color: var(--primary-font); 
+    justify-content: space-between;
+    font-size: 36px;
+}
+.header-container{
+    height: 100vh;
+    background-color: var(--background-color);
+    background-image: url(images/bg_image.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#nav-icon-id{
+    width: 150px;
+    text-align: right;
+}

@@ -1,0 +1,161 @@
+.nav{ 
+    display: flex;
+    padding: 20px 15px;
+    gap:20px; 
+    color: var(--primary-font); 
+    justify-content: space-between;
+    font-size: 36px;
+}
+.header-container{
+    height:100vh;
+    background-image: url(images/baground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
+}
+
+#nav-icon-id{
+    width: 150px;
+    text-align: right;
+    margin-top: 7px;
+}
+
+/* text-transform: capitalize; text er sob lekha upper case a convert kore */
+
+.baneer-title h1{
+    font-weight: bolder; 
+    font-size: 120px;
+    letter-spacing: 2px;
+    margin: 20px 0px;
+    padding: 0px 5px;
+    text-align: center;
+}
+.baneer-des{
+    padding: 40px;
+    margin-left: 145px;
+    font-weight: bold;
+}
+
+#banner-image img{
+    height: 350px;
+    width: 350px;
+}
+#banner-image{
+    background-color: #9432def3;
+    width: fit-content;
+    padding: 2%;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+.banner-img-work{
+    display: flex;
+    border-top: 2px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    justify-content: space-between;
+    margin: 10px 160px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.work-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-bottom: 10px;
+    padding: 20px 0px;
+}
+#side-work-icon{
+    display: flex;
+    gap: 10px;
+}
+#side-work-icon h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.check-icon{
+    width: 40px;
+    height: 40px;
+}
+.datas{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 160px;
+}
+.end-margin{
+    margin: 4px 0px;
+    border-bottom: 2px solid whitesmoke;
+
+}
+.datas h1{
+    font-size: 100px;
+    font-weight: bolder;
+}
+.datas h3{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 2px 0px;
+}
+
+/* raw css responsive with media query */
+@media only screen and (min-width:200px) and (max-width:576px){
+    .nav{
+        font-size: 16px;
+    }
+    .datas{
+        display: grid;
+        grid-template-columns: 200px 200px;
+        gap: 20%;
+        width: fit-content;
+    }
+    .datas h1{
+        font-size: 70px;
+    }
+    .datas h3{
+        font-size: 15px;
+    }
+    .header-container{
+        width: fit-content;
+    }
+    .baneer-title h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    .header-container{
+        background:linear-gradient(to top,darkblue,transparent);
+    }
+    .baneer-des{
+        font-size: 15px;
+        text-align: center;
+        width: fit-content;
+        justify-content: center;
+        margin: auto;
+    }
+    .banner-img-work{
+        flex-direction: column;
+        padding-bottom: 10px;
+        border-top: 4px solid rgb(222, 15, 222);
+        border-bottom: 4px solid rgb(222, 15, 222);
+        padding-bottom: 30px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    #banner-image{
+        width: 80%;
+        height: 60%;
+        background: linear-gradient(45deg, rgba(244, 95, 239, 0.533), #0965e6f6);
+    }
+    #banner-image img{
+        padding:0 20%;
+    }
+
+    .end-margin{
+        margin-top: 80px;
+        border-top: 4px solid rgb(187, 19, 239);
+    }
+    #nav-icon-id img{
+        height: 20px;
+        width: 20px;
+    }
+}
