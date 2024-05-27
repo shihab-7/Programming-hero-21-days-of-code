@@ -7,10 +7,10 @@
     font-size: 36px;
 }
 .header-container{
-    height:100vh;
+    height:100%;
     background-image: url(images/baground.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
     background-size: 35%;
 }
 
