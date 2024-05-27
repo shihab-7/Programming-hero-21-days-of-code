@@ -1,6 +1,6 @@
 .projects{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2,1fr);
     gap: 20px;
 }
 
@@ -10,17 +10,22 @@
 }
 
 .prj h2{
+    margin-top: 30px;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 35px;
+    font-weight: bold;
 }
 .project-container{
     display: flex;
     flex-direction:column;
     margin: 0px 160px;
+    margin-top: 20px;
+    background-color: #0C0418;
 }
 .check-btn{
     width: 200px;
-    margin: 10px 43%;
+    margin-top: 20px;
+    margin-left: 43%;
     border: 1px solid white;
 
 }
@@ -28,4 +33,39 @@
     text-align: center;
     padding: 5px;
     font-size: 20px;
+}
+
+/* making responsive */
+
+@media only screen and (min-width: 200px) and (max-width:576px) {
+    .projects{
+        grid-template-columns:repeat(1,1fr);
+        margin: 0 40px;
+    }
+    .projects img{
+        width: 600px;
+    }
+    .prj h2{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 25px;
+        font-weight:700;
+        text-align: left;
+    }
+    .project-container{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 20px;
+    }
+    .check-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .check-btn h2{
+        text-align: center;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: 600;
+        
+    }
 }
