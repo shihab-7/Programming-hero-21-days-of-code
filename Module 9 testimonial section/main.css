@@ -1,0 +1,207 @@
+.projects{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.projects img{
+    width : 507px;
+    border-radius: 20px;
+}
+
+.prj h2{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.project-container{
+    display: flex;
+    flex-direction:column;
+    margin-top: 20px;
+    background-color: #0C0418;
+}
+.check-btn{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 43%;
+    border: 1px solid white;
+
+}
+.check-btn h2{
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+.expertise-card{
+    display: flex;
+    justify-content: space-between;
+
+}
+.card{
+
+    border: 1px solid white;
+    border-radius: 7px;
+    height: 410px;
+    width: 310px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+}
+.card h3{
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+    width: 310px;
+}
+.card img{
+    width: 310px;
+    border-radius: 50px;
+    border-top: 20px solid rgba(87, 87, 87, 0.953);
+}
+.img-div{
+    margin-top: 50px;
+    width:310px;
+    border-radius: 60px;
+    border-top: 15px solid rgba(201, 197, 197, 0.184);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.round-name{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: blue;
+}
+.round-date{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: blueviolet;
+}
+.date{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.name-date{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.blog-title{
+    background-color: whitesmoke;
+    border-radius: 50px;
+    width: fit-content;
+    margin-top: 30px;
+}
+.blog-title h1{
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+}
+.blog-description{
+    margin-top: 30px;
+}
+.blog-description h1{
+    text-transform:uppercase;
+}
+.blog-card img{
+    border-radius: 40px;
+    width: 310px;
+    border: 1px solid whitesmoke;
+}
+.my-blogs{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 5px;
+}
+.blog-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #0C0418;
+}
+/* making responsive */
+
+@media only screen and (min-width: 200px) and (max-width:576px) {
+    .project-container{
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px 0;
+        
+    }
+    .projects{
+        grid-template-columns:repeat(1,1fr);
+        margin: 10px 0px;
+    }
+    .projects img{
+        width: 600px;
+    }
+    .projects div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .prj h2{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 25px;
+        font-weight:700;
+        text-align: center;
+    }
+    .check-btn{
+        display: flex;
+        justify-content: center;
+        width: fit-content;
+    }
+    .check-btn h2{
+        text-align: center;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: 600;
+        
+    }
+    .expertise-card{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .card{
+        width: fit-content;
+        margin-top: 20px;
+    }
+    .expertise-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    main{
+        border-top: 4px solid rgb(222, 15, 222);
+        width: fit-content;
+    }
+    .my-blogs{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .blog-card{
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+}

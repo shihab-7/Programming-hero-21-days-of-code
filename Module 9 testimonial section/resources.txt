@@ -1,0 +1,3 @@
+github resource link : https://github.com/ProgrammingHero1/portfolio-resources
+
+figma link : https://www.figma.com/design/v5jFQTGQRU2nI0NXMahDUN/Portfolio-Website---21-Days-of-Code?node-id=0-1&t=QX6gGG9kGWgajENu-1
