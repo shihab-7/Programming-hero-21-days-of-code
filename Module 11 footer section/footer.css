@@ -1,0 +1,73 @@
+footer{
+    background: linear-gradient(93.43deg, rgba(94, 74, 241, 0.765) 0%, rgba(186, 11, 249, 0.9) 100%);
+    margin-top: 40px;
+}
+
+.footer-form , .footer-contacts{
+    width: 50%;
+    padding: 40px;
+}
+.footer-container{
+    display: flex;
+    margin: 0 20px;
+    border-bottom: 1px solid white;
+}
+.footer-contacts h1, .footer-form h1{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.footer-contacts p, .footer-form p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-top: 15px;
+}
+.footer-contacts img{
+    width: 50px;
+    height: 50px;
+}
+.footer-icons{
+    margin-top: 30px;
+    display: flex;
+    gap:20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input, textarea{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    padding: 2px;
+}
+input{
+    margin-top: 20px;
+}
+textarea{
+    margin-top: 40px;
+}
+
+/* :: eita k selector bola hoy */
+
+::placeholder{
+    color: white;
+}
+footer button{
+    background: transparent;
+    width: 100%;
+    border: 1px solid white;
+    padding: 3px;
+}
+.end{
+    font-size:15px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 20px;
+}
+@media only screen and (max-width:200) and (max-width:576px){
+
+}
